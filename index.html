@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghibli App</title>
+    <link rel="stylesheet" href="global.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="center-container">
+            <h1>Select Endpoint:</h1>
+            <select id="endpoint" class="dropdown">
+                <option value="films">Films</option>
+                <option value="species">Species</option>
+                
+            </select>
+            <button onclick="updateData()">Update</button>
+        </div>
+    </div>
+    <div id="root"></div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
